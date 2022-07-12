@@ -1,0 +1,110 @@
+.hotel_search_item{
+    display: flex;
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: 1px solid  lightblue;
+}
+.hotel_search_img{
+    flex:2;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.hotel_search{
+    flex:5;
+    margin-left: 1rem;
+}
+.hotel_search_name{
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.hotel_search_distance{
+    margin-top: 0.5rem;
+}
+.hotel_search_move{
+    width: max-content;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    padding: 2px;
+    margin-top: 0.5rem;
+}
+.hotel_search_property{
+    display: flex;
+}
+.hotel_search_kind{
+    list-style: none;
+    margin-left: -2.5rem;
+}
+.hotel_search_area{
+    margin-left: 1.5rem;
+}
+.hotel_search_bed{
+    margin-left: 1.5rem;
+}
+.hotel_search_ultil{
+    width: max-content;
+    background-color: rgb(99, 49, 192);
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+}
+.hotel_search_title{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.hotel_search_detail{
+    flex: 3;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hotel_search_star{
+    display: flex;
+    justify-content: space-between;
+}
+.hotel_search_star_text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hotel_search_star_star{
+    width: max-content;
+    border-radius: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: blue;
+    color: white;
+    margin-right: 1rem;
+}
+.hotel_search_book{
+    text-align: end;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+.hotel_search_price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hotel_search_price_include{
+    margin-top:0.5rem;
+}
+.hotel_search_book_btn{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

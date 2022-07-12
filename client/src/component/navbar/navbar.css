@@ -1,0 +1,103 @@
+.navbar{
+    background-color: rgba(32, 204, 161, 0.7);
+    position: relative;
+    margin-top: -10px;
+}
+.navbar_contain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.home{
+    height: 150px;
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+.logo{
+    height: 100px !important;
+    width: 100px !important;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.title{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-top: 120px;
+    margin-left: -100px;
+    font-size: larger;
+}
+.menu{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.menu_{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0px 40px;
+    font-size: x-large;
+    background-color: beige;
+    height: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.user{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.btn_host{
+    height: 40px;
+    width: 120px;
+    border:solid 1px;
+    border-radius: 8px;
+    margin-right: 15px;
+    background-color: burlywood;
+}
+.btn_host:hover,
+.menu_:hover{
+    cursor: pointer;
+}
+.user_icon{
+    height: 30px !important;
+    width: 30px !important;
+    margin: 0px 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_stay,
+.header_flight,
+.header_car,
+.header_attraction,
+.header_taxi{
+    margin-left: 8rem;
+    border: 2px solid;
+    height: 2.5rem;
+    width: 7.5rem;
+    display: flex;
+    border-radius: 1rem;
+
+}
+.header_icon{
+    height: 2rem !important;
+    width: 2rem !important;
+    margin-left: 0.2rem;
+}
+.header_text{
+    margin-left: 0.5rem;
+    margin-top: 0.75rem;
+    font-weight: bold;
+}
+.true{
+    height: 50px;
+    width: 100%;
+}
+.false{
+    height: 0px;
+}

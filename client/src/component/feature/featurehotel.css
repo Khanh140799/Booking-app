@@ -1,0 +1,31 @@
+
+.hotel_city{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hotel_city_item{
+    position: relative;
+    color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.city_imgage{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.city_name{
+    position: absolute;
+    color: aliceblue;
+    top: 160px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.feature_hotel_count{
+    color: black;
+}

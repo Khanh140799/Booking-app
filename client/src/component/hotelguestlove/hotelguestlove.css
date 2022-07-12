@@ -1,0 +1,66 @@
+.hotel_guest_love_conatain{
+    margin-top: 3rem;
+}
+.hotel_guest_love_title{
+    font-size: 40px;
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hotel_guest_love_list{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+.hotel_guest_love_item{
+    position: relative;
+    color: antiquewhite;
+    overflow: hidden;
+    text-decoration: none;
+}
+.hotel_guest_love_img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    height: 200px;
+}
+.hotel_guest_love_name{
+    position: absolute;
+    color: aliceblue;
+    top: 160px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.hotel_guest_love_city{
+    color:black ;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.hotel_guest_love_price{
+    color: black;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.hotel_guest_love_star{
+    display: flex;
+    color: black;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.hotel_star{
+    width: max-content;
+    padding: 0px 0.5rem;
+    margin-left: -0.5rem;
+    margin-right: 0.25rem;
+    background-color: blue;
+    border-radius: 4px;
+}
+.hotel_rank{
+    font-weight: bold;
+}

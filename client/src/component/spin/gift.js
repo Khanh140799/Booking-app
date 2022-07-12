@@ -1,0 +1,52 @@
+const data =[
+    {
+        "name":"1",
+        "percent":10/100,
+    },
+    {
+        "name":"2",
+        "percent":15/100,
+    },
+    {
+        "name":"3",
+        "percent":15/100,
+    },
+    {
+        "name":"4",
+        "percent":10/100,
+    },
+    {
+        "name":"5",
+        "percent":20/100,
+    },
+    {
+        "name":"6",
+        "percent":10/100,
+    },
+    {
+        "name":"7",
+        "percent":10/100,
+    },
+    {
+        "name":"8",
+        "percent":5/100,
+    },
+    {
+        "name":"9",
+        "percent":2/100,
+    },
+    {
+        "name":"10",
+        "percent":1/100,
+    },
+    {
+        "name":"11",
+        "percent":1/100,
+    },
+    {   
+        "name":"12",
+        "percent":1/100
+    }
+
+]
+export default data

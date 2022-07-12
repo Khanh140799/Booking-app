@@ -1,0 +1,43 @@
+.list_property_city{
+    margin-top: 3rem;
+}
+.property_tille{
+    font-size: 40px;
+    font-weight:bold ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list_property_city_list{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.list_property_city_item{
+    position: relative;
+    color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.property_city_img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.property_city_name{
+    position: absolute;
+    color: aliceblue;
+    top: 160px;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.property_city_count{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}

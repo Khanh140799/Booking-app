@@ -1,0 +1,93 @@
+.list_hotel_contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.list_hotel_wrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+.list_hotel_search{
+    flex:2;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    position: sticky;
+    height: max-content;
+    top:10px
+}
+.list_hotel_search_title{
+    font-size: 20px;
+    color: #333;
+}
+.list_hotel_result{
+    flex:5;
+    margin-top: -1rem;
+}
+.list_hotel_search_item{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+.list_hotel_search_destination{
+    margin-left: 2px;
+}
+.list_hotel_search_input{
+    width: 90%;
+    height: 25px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 4px;
+}
+.list_hotel_calendar{
+    position: absolute;
+    top:4rem;
+    left:0;
+}
+.list_hotel_option{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+.list_hotel_option_title{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list_hotel_option_item{
+    margin-top: 0.5rem;
+    display: flex;
+}
+.list_hotel_option_item_text{
+    font-size: 16px;
+    flex:1
+}
+.list_hotel_option_item_input{
+    flex:2;
+    margin-right: 2rem;
+    height: 25px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list_hotel_btn{
+    height: 2.5rem;
+    width: 5rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.list_contain_footer{
+    display: flex;
+    justify-content: center;
+}
